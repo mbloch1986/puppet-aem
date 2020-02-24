@@ -1,3 +1,8 @@
+## Unreleased
+### Summary
+Minor Changes
+* Change aem_installer hostname from localhost to 127.0.0.1
+
 ## 2017-01-26 - Release 3.0.0
 ### Summary
 
@@ -7,7 +12,7 @@ Major Changes
 
 Minor changes
 * Added #108: SELinux Support
-* Added #128: Systemd Service options 
+* Added #128: Systemd Service options
 
 ## 2019-11-02 - Release 2.6.1
 ### Summary
@@ -23,8 +28,8 @@ Minor bug fixes:
 ### Summary
 
 Adding Minor new features
-- #117: Dispatcher secure renderers 
-- #119: Support invalidate and invalidate cache handler in dispatcher 
+- #117: Dispatcher secure renderers
+- #119: Support invalidate and invalidate cache handler in dispatcher
 - #112: Dispatcher permissions sensitive caching support
 - #109: AEM Standby type support - cold standby
 

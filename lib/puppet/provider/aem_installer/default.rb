@@ -127,7 +127,7 @@ Puppet::Type.type(:aem_installer).provide :default, parent: Puppet::Provider do
   def monitor_site(desired_state = :on)
     # If context root is not blank, need to ensure URI has a trailing slash,
     # otherwise the system redirects, thus shutting down before installation is complete.
-    uri_s = "http://localhost:#{@property_hash[:port]}/"
+    uri_s = "http://127.0.0.1:#{@property_hash[:port]}/"
     uri_s = "#{uri_s}#{@property_hash[:context_root]}/" if @property_hash[:context_root]
 
     uri = URI.parse(uri_s)
